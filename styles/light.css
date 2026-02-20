@@ -4,9 +4,38 @@
   переключая тему
 */
 
-:root.theme-light {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+:root.light.css { 
+  --bg-image: url('../images/cover-image-light.png');
+  --bg-color: #fff1f7;;
+  --accent-color: #ff8dcb;
+  --nav-color: #353430;
+  --header-logo-color: #ffc2e6;
+  --text-content-color: #353430;
+  --main-heading-color: #353430;
+  --section-heading-color: #353430;
+  --nav-hover-color: rgba(50, 49, 45, 0.4);
+  --footer-logo-color: #ffc2e6;
+}
+
+.theme-light .header__rec {
+  display: none;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg-image: url('../images/cover-image-light.png');
+    --bg-color: #fff1f7;;
+    --accent-color: #ff8dcb;
+    --nav-color: #353430;
+    --header-logo-color: #ffc2e6;
+    --text-content-color: #353430;
+    --main-heading-color: #353430;
+    --section-heading-color: #353430;
+    --nav-hover-color: rgba(50, 49, 45, 0.4);
+    --footer-logo-color: #ffc2e6;
+  }
+}
+
+.header__rec {
+  display: none;
 }
