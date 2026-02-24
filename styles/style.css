@@ -89,7 +89,7 @@
 
 .header__theme-menu-button:focus-visible {
   border: none;
-  border-bottom: 2px solid var(--nav-color);
+  border-bottom: 1px solid var(--nav-color);
 }
 
 .header__theme-menu-button:hover {
@@ -170,14 +170,14 @@
 
 .section__link {
   text-decoration: none;
-  text-shadow: 1px 1px 0 var(--accent-color);
+  text-shadow: 2px 2px 0 var(--accent-color);
 }
 .section__link:focus {
   outline: none;
 }
 .section__link:hover {
   border: none;
-  border-bottom: 2px solid var(--text-content-color);
+  border-bottom: 1px solid var(--text-content-color);
 }
 
 .section__link:focus-visible {
@@ -243,10 +243,6 @@
   .header-text-block__title {
     justify-self: end;
     inline-size: var(--header-text-width);
-  }
-
-  .text-block__title {
-    /* inline-size: var(--header-text-width); */
   }
 
   .decorated-zone::before {
