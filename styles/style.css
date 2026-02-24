@@ -356,10 +356,6 @@
     gap: var(--small-gap);
   }
 
-  .cause .content-section__title {
-    grid-column: 1/-1;
-  }
-
   .cause .text-block {
     grid-template-rows: fit-content(23px);
   }
