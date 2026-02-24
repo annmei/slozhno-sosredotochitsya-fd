@@ -4,7 +4,7 @@
   переключая тему
 */
 
-:root.light.css { 
+:root .light.css { 
   --bg-image: url('../images/cover-image-light.png');
   --bg-color: #fff1f7;
   --button-active-color: #353430;

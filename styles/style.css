@@ -240,9 +240,6 @@
     row-gap: 20px;
   }
 
-  .text-block {
-  }
-
   .header-text-block__title {
     justify-self: end;
     inline-size: var(--header-text-width);
@@ -351,10 +348,6 @@
   .cause .content-section__title {
     grid-column: 1/-1;
   }
-
-  /* .cause .text-block__title {
-    height: fit-content;
-  } */
   
   .cause .text-blocks {
     grid-column: 1/-1;
