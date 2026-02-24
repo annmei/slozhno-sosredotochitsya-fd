@@ -5,17 +5,17 @@
 */
 
 :root.theme-dark {
---bg-image: url('../images/cover-image-dark.png');
---bg-color: #000028;
---button-active-color: #ff0070;
---accent-color: #ff0070;
---nav-color: #ff0070;
---header-logo-color: #db00ff;
---text-content-color: #F1B2CE;
---main-heading-color: #000028;
---section-heading-color: #ff0070;
---nav-hover-color: rgba(255, 0, 112, 0.4);
---footer-logo-color: #db00ff;
+  --bg-image: url("../images/cover-image-dark.png");
+  --bg-color: #000028;
+  --button-active-color: #ff0070;
+  --accent-color: #ff0070;
+  --nav-color: #ff0070;
+  --header-logo-color: #db00ff;
+  --text-content-color: #f1b2ce;
+  --main-heading-color: #000028;
+  --section-heading-color: #ff0070;
+  --nav-hover-color: rgba(255, 0, 112, 0.4);
+  --footer-logo-color: #db00ff;
 }
 
 .theme-dark .header__decorative-text {

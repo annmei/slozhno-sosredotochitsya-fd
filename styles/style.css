@@ -344,7 +344,7 @@
   .cause .content-section__title {
     grid-column: 1/-1;
   }
-  
+
   .cause .text-blocks {
     grid-column: 1/-1;
     display: grid;

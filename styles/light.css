@@ -1,5 +1,5 @@
 :root.theme-light {
-  --bg-image: url('../images/cover-image-light.png');
+  --bg-image: url("../images/cover-image-light.png");
   --bg-color: #fff1f7;
   --button-active-color: #353430;
   --accent-color: #ff8dcb;
@@ -16,9 +16,9 @@
   display: none;
 }
 
-@media (prefers-color-scheme:light) {
+@media (prefers-color-scheme: light) {
   :root {
-    --bg-image: url('../images/cover-image-light.png');
+    --bg-image: url("../images/cover-image-light.png");
     --bg-color: #fff1f7;
     --button-active-color: #353430;
     --accent-color: #ff8dcb;
@@ -31,7 +31,6 @@
     --footer-logo-color: #ffc2e6;
   }
   .header__decorative-text {
-  display: none;
+    display: none;
+  }
 }
-}
-
