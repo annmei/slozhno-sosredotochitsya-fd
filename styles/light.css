@@ -1,10 +1,4 @@
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-
-:root.theme-light { 
+:root.theme-light {
   --bg-image: url('../images/cover-image-light.png');
   --bg-color: #fff1f7;
   --button-active-color: #353430;
