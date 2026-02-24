@@ -7,6 +7,7 @@
 :root.theme-dark {
 --bg-image: url('../images/cover-image-dark.png');
 --bg-color: #000028;
+--button-active-color: #ff0070;
 --accent-color: #ff0070;
 --nav-color: #ff0070;
 --header-logo-color: #db00ff;
@@ -17,6 +18,6 @@
 --footer-logo-color: #db00ff;
 }
 
-.theme-dark .header__rec {
+.theme-dark .header__decorative-text {
   display: block;
 }
